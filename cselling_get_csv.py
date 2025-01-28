@@ -10,8 +10,6 @@ import pathlib
 import requests
 from utils_logger import logger
 
-fetched_folder_name = "something lalala"
-
 def get_csv(save_folder: str, filename: str, url: str) -> None:
     """
     Retrieve .csv file from given URL, write to new file, and save to named folder.
@@ -29,7 +27,10 @@ def get_csv(save_folder: str, filename: str, url: str) -> None:
     
     try:
         logger.info(f"Retrieving CSV file from {url}...")
-
+        response = requests.get(url)
+        response.raise_for_status()
+        write_csv(save_folder, filename, response.text)
+        logger.info(f"Successfully retrieved and saved file {filename}!")
     except requests.exceptions.HTTPError as http_err:
         logger.error(f"HTTP error: {http_err}")
     except requests.exceptions.RequestException as req_err:
@@ -62,9 +63,9 @@ def main():
     """
     Main function for running program
     """
-    csv_url = 'something something'
+    csv_url = 'https://raw.githubusercontent.com/MainakRepositor/Datasets/master/World%20Happiness%20Data/2020.csv'
     logger.info("Retrieving file...")
-    get_csv(fetched_folder_name, "New File.csv", csv_url)
+    get_csv("CSV", "New File.csv", csv_url)
 
 
 if __name__ == '__main__':
