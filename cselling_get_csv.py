@@ -63,9 +63,9 @@ def main():
     """
     Main function for running program
     """
-    csv_url = 'https://raw.githubusercontent.com/MainakRepositor/Datasets/master/World%20Happiness%20Data/2020.csv'
+    csv_url = 'https://raw.githubusercontent.com/MainakRepositor/Datasets/refs/heads/master/Air%20Quality/real_2016_air.csv'
     logger.info("Retrieving file...")
-    get_csv("CSV", "New File.csv", csv_url)
+    get_csv("data", "Air Quality 2016.csv", csv_url)
 
 
 if __name__ == '__main__':
