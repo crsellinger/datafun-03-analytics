@@ -23,7 +23,7 @@ from utils_logger import logger
 # Declare Global Variables
 #####################################
 
-fetched_folder_name = "TEXT"
+fetched_folder_name = "data"
 
 #####################################
 # Define Functions

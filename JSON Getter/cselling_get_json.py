@@ -24,7 +24,7 @@ from utils_logger import logger
 # Declare Global Variables
 #####################################
 
-fetched_folder_name = "JSON"
+fetched_folder_name = "data"
 
 #####################################
 # Define Functions
