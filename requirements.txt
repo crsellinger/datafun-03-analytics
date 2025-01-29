@@ -197,3 +197,5 @@ seaborn
 # NETWORKING / HTTP
 # ======================================================
 requests
+
+openpyxl
