@@ -1,0 +1,5 @@
+T Statistics:
+Minimum: 11.70
+Maximum: 38.00
+Mean: 26.92
+Standard Deviation: 7.07
