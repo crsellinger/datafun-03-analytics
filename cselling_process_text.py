@@ -1,5 +1,5 @@
 """
-Process a text file to count occurrences of the word "Romeo" and save the result.
+Process a text file.
 """
 
 #####################################
@@ -12,13 +12,15 @@ import pathlib
 # Import from local project modules
 from utils_logger import logger
 
+import statistics
+
 #####################################
 # Declare Global Variables
 #####################################
 
 fetched_folder_name: str = "data"
 processed_folder_name: str = "data_processed"
-input_filename: str = "romeo.txt"
+input_filename: str = "GDP per Capita.txt"
 output_filename: str = "text_output.txt"
 
 #####################################
@@ -26,36 +28,51 @@ output_filename: str = "text_output.txt"
 #####################################
 
 
-def count_word_occurrences(file_path: pathlib.Path, word: str) -> int:
-    """Count the occurrences of a specific word in a text file (case-insensitive)."""
-    try:
-        with file_path.open("r") as file:
-            content: str = file.read()
-            return content.lower().count(word.lower())
-    except Exception as e:
-        logger.error(f"Error reading text file: {e}")
-        return 0
+def stats_gdp(file_path: pathlib.Path) -> int:
+    """
+    Gets max GDP per Capita in text file
+    """
+    data: list = []
+    gdp_list: list = []
+    # max: int = 0
+    j: int = 0
+    # try:
+    with file_path.open("r") as file:
+        for i in file:
+            line = i.split()
+            data.append(line)
+            gdp_list.append(int(data[j][-1].replace(",", "")))
+            j += 1
+        x = max(gdp_list)
+        y = min(gdp_list)
+        z = round(statistics.mean(gdp_list), 2)
+        return x, y, z
+    # except Exception as e:
+    #     logger.error(f"Error reading text file: {e}")
+    #     return 0
 
 
 def process_text_file():
-    """Read a text file, count occurrences of 'Romeo', and save the result."""
+    """
+    Read a text file
+    """
     input_file = pathlib.Path(fetched_folder_name, input_filename)
     output_file = pathlib.Path(processed_folder_name, output_filename)
-    word_to_count: str = "Romeo"
-    word_count: int = count_word_occurrences(input_file, word_to_count)
+    max, min, mean = stats_gdp(input_file)
     output_file.parent.mkdir(parents=True, exist_ok=True)
     with output_file.open("w") as file:
-        file.write(f"Occurrences of '{word_to_count}': {word_count}\n")
-    logger.info(
-        f"Processed text file: {input_file}, Word count saved to: {output_file}"
-    )
+        file.write(f"Highest GDP: {max}\nLowest: GDP: {min}\nMean GDP: {mean}")
+    logger.info(f"Processed text file: {input_file}. Data saved to {output_file}")
 
 
 #####################################
 # Main Execution
 #####################################
 
-if __name__ == "__main__":
+def main():
     logger.info("Starting text processing...")
     process_text_file()
     logger.info("Text processing complete.")
+
+if __name__ == "__main__":
+    main()
