@@ -860,3 +860,23 @@ Mean Income: >50K
 
 2025-01-31 21:13:56.545 | INFO     | __main__:<module>:75 - Excel processing complete.
 >>>>>>> 5c2dd323301d4cf44e98f4d243087f19b7b6b51a
+2025-01-31 23:50:42.094 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 23:50:42.097 | INFO     | __main__:<module>:75 - Starting Excel processing...
+2025-01-31 23:51:23.636 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 23:51:23.639 | INFO     | __main__:<module>:75 - Starting Excel processing...
+2025-01-31 23:51:41.567 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 23:51:41.570 | INFO     | __main__:<module>:75 - Starting Excel processing...
+2025-01-31 23:54:19.161 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 23:54:19.165 | INFO     | __main__:<module>:76 - Starting Excel processing...
+2025-01-31 23:59:00.085 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 23:59:00.089 | INFO     | __main__:<module>:76 - Starting Excel processing...
+2025-01-31 23:59:59.924 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 23:59:59.928 | INFO     | __main__:<module>:76 - Starting Excel processing...
+2025-02-01 00:00:02.254 | INFO     | __main__:process_excel_file:68 - Processed Excel file: data\Income Census.xlsx
+
+2025-02-01 00:00:02.254 | INFO     | __main__:<module>:78 - Excel processing complete.
+2025-02-01 00:00:19.144 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-02-01 00:00:19.147 | INFO     | __main__:<module>:76 - Starting Excel processing...
+2025-02-01 00:00:21.438 | INFO     | __main__:process_excel_file:68 - Processed Excel file: data\Income Census.xlsx
+
+2025-02-01 00:00:21.438 | INFO     | __main__:<module>:78 - Excel processing complete.

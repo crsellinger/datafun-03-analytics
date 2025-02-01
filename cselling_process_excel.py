@@ -36,16 +36,20 @@ def stats_income(file_path: pathlib.Path) -> int:
     """Count the occurrences of a specific word in a given column of an Excel file."""
     workbook = openpyxl.load_workbook(file_path)
     sheet = workbook.active
-    age = []
-    cell = 1
-    for cell in sheet["A"]:
-        age.append(cell.value)
+    # age = []
+    # cell = 1
+    # for cell in sheet["A"]:
+    #     age.append(cell.value)
 
-    del age[0]
+    # list comprehension of for loop above
+    ages = [age.value for age in sheet["A"]]
 
-    mean = round(statistics.mean(age),0)
+    # del age[0]
+    del ages[0]
 
-    i = age.index(mean)
+    mean = round(statistics.mean(ages),0)
+
+    i = ages.index(mean)
     # i + 2 to account for header and sheet rows start at 1 instead of 0
     row_vals = [cell.value for cell in sheet[i+2]]
 
