@@ -25,6 +25,7 @@ from utils_logger import logger
 #####################################
 
 fetched_folder_name = "data"
+output_filename = "pokedex.json"
 
 #####################################
 # Define Functions
@@ -76,7 +77,7 @@ def write_json_file(folder_name: str, filename: str, json_data: dict) -> None:
     try:
         logger.info(f"Writing JSON data to {file_path}...")
         file_path.parent.mkdir(parents=True, exist_ok=True)
-        with file_path.open('w') as file:
+        with file_path.open("w", encoding="utf-8") as file:
             json.dump(json_data, file, indent=4)
         logger.info(f"SUCCESS: JSON data written to {file_path}")
     except IOError as io_err:
@@ -90,9 +91,9 @@ def main():
     """
     Main function to demonstrate fetching JSON data.
     """
-    json_url = 'http://api.open-notify.org/astros.json'
+    json_url = "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/refs/heads/master/pokedex.json"
     logger.info("Starting JSON fetch demonstration...")
-    fetch_json_file(fetched_folder_name, "astros.json", json_url)
+    fetch_json_file(fetched_folder_name, output_filename, json_url)
 
 #####################################
 # Conditional Execution

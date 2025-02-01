@@ -1,3 +1,0 @@
-Highest GDP: 103900
-Lowest: GDP: 0
-Mean GDP: 17420.52

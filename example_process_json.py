@@ -35,7 +35,7 @@ from utils_logger import logger
 # Declare Global Variables
 #####################################
 
-fetched_folder_name: str = "example_data"
+fetched_folder_name: str = "JSON"
 processed_folder_name: str = "example_processed"
 
 #####################################

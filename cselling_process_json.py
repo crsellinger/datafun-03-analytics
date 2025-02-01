@@ -1,22 +1,5 @@
 """
-Process a JSON file to count astronauts by spacecraft and save the result.
-
-JSON file is in the format where people is a list of dictionaries with keys "craft" and "name".
-
-{
-    "people": [
-        {
-            "craft": "ISS",
-            "name": "Oleg Kononenko"
-        },
-        {
-            "craft": "ISS",
-            "name": "Nikolai Chub"
-        }
-    ],
-    "number": 2,
-    "message": "success"
-}
+Process a JSON file to pull pokemon names and save the result.
 
 """
 
@@ -37,50 +20,46 @@ from utils_logger import logger
 
 fetched_folder_name: str = "data"
 processed_folder_name: str = "data_processed"
-input_filename: str = "astros.json"
-output_filename: str = "json_output.txt"
+input_filename: str = "pokedex.json"
+output_filename: str = "Pokemon.txt"
 
 #####################################
 # Define Functions
 #####################################
 
 
-def count_astronauts_by_craft(file_path: pathlib.Path) -> dict:
-    """Count the number of astronauts on each spacecraft from a JSON file."""
-    try:
-        with file_path.open("r") as file:
-            # Use the json module load() function
-            # to read data file into a Python dictionary
-            astronaut_dictionary = json.load(file)
-            # initialize an empty dictionary to store the counts
-            craft_counts_dictionary = {}
-            # people is a list of dictionaries in the JSON file
-            people_list: list = astronaut_dictionary.get("people", [])
-            for person_dictionary in people_list:
-                craft = person_dictionary.get("craft", "Unknown")
-                craft_counts_dictionary[craft] = (
-                    craft_counts_dictionary.get(craft, 0) + 1
-                )
-            return craft_counts_dictionary
-    except Exception as e:
-        logger.error(f"Error reading or processing JSON file: {e}")
-        return {}
+def get_pokemon(file_path: pathlib.Path) -> dict:
+    """
+    Pull Pokemon names out of json file. 
+    """
+    with file_path.open("r", encoding="utf-8") as file:
+        pokedex = json.load(file)
+        # loads as list of dictionaries
+        name_list: list = []
+        english_name: list = []
+        i = 0
+        for dict in pokedex:
+            # goes through every dictionary in the pokedex list and appends the name sub-dictionary to name_list
+            name_list.append(dict["name"])
+            # gets value of each english key and appends it to english_name list
+            english_name.append(name_list[i].get("english"))
+            i += 1
+        return english_name
 
 
 def process_json_file():
-    """Read a JSON file, count astronauts by spacecraft, and save the result."""
+    """
+    Processes json file by pulling all pokemon names and how many pokemon are in the pokedex. Saves data to folder.
+    """
     input_file: pathlib.Path = pathlib.Path(fetched_folder_name, input_filename)
-    output_file: pathlib.Path = pathlib.Path(
-        processed_folder_name, output_filename
-    )
+    output_file: pathlib.Path = pathlib.Path(processed_folder_name, output_filename)
 
-    craft_counts = count_astronauts_by_craft(input_file)
+    pokemon_name = get_pokemon(input_file)
     output_file.parent.mkdir(parents=True, exist_ok=True)
 
-    with output_file.open("w") as file:
-        file.write("Astronauts by spacecraft:\n")
-        for craft, count in craft_counts.items():
-            file.write(f"{craft}: {count}\n")
+    with output_file.open("w", encoding="utf-8") as file:
+        file.write(f"Number of Pokemon: {len(pokemon_name)}\n")
+        file.write(f"Pokemon:\n{pokemon_name}")
 
     logger.info(f"Processed JSON file: {input_file}, Results saved to: {output_file}")
 

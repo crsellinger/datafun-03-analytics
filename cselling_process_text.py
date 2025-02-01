@@ -1,5 +1,5 @@
 """
-Process a text file.
+Process a text file to find statistics for GDP per capita and save result to data_processed folder.
 """
 
 #####################################
@@ -21,7 +21,7 @@ import statistics
 fetched_folder_name: str = "data"
 processed_folder_name: str = "data_processed"
 input_filename: str = "GDP per Capita.txt"
-output_filename: str = "text_output.txt"
+output_filename: str = "GDP.txt"
 
 #####################################
 # Define Functions
@@ -30,7 +30,7 @@ output_filename: str = "text_output.txt"
 
 def stats_gdp(file_path: pathlib.Path) -> int:
     """
-    Gets max GDP per Capita in text file
+    Gets max, min, and mean GDP per Capita in text file.
     """
     data: list = []
     gdp_list: list = []
@@ -45,7 +45,7 @@ def stats_gdp(file_path: pathlib.Path) -> int:
             j += 1
         x = max(gdp_list)
         y = min(gdp_list)
-        z = round(statistics.mean(gdp_list), 2)
+        z = round(statistics.mean(gdp_list), 0)
         return x, y, z
     # except Exception as e:
     #     logger.error(f"Error reading text file: {e}")
@@ -54,7 +54,7 @@ def stats_gdp(file_path: pathlib.Path) -> int:
 
 def process_text_file():
     """
-    Read a text file
+    Read a text file, parse input file for numbers, calculate stats, and save file to folder.
     """
     input_file = pathlib.Path(fetched_folder_name, input_filename)
     output_file = pathlib.Path(processed_folder_name, output_filename)
