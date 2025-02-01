@@ -1,0 +1,432 @@
+2025-01-30 13:53:50.273 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-30 13:53:50.273 | INFO     | __main__:<module>:70 - Starting Excel processing...
+2025-01-30 13:53:50.283 | INFO     | __main__:process_excel_file:60 - Processed Excel file: data\feedback.xlsx, Word count saved to: data_processed\excel_output.txt
+2025-01-30 13:53:50.284 | INFO     | __main__:<module>:72 - Excel processing complete.
+2025-01-30 14:41:49.688 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-30 14:41:49.688 | INFO     | __main__:<module>:93 - Starting JSON processing...
+2025-01-30 14:41:49.689 | INFO     | __main__:process_json_file:85 - Processed JSON file: data\astros.json, Results saved to: data_processed\json_output.txt
+2025-01-30 14:41:49.689 | INFO     | __main__:<module>:95 - JSON processing complete.
+2025-01-30 14:43:45.915 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-30 14:43:45.916 | INFO     | __main__:<module>:59 - Starting text processing...
+2025-01-30 14:43:45.917 | INFO     | __main__:process_text_file:49 - Processed text file: data\romeo.txt, Word count saved to: data_processed\text_output.txt
+2025-01-30 14:43:45.917 | INFO     | __main__:<module>:61 - Text processing complete.
+2025-01-30 18:49:38.311 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-30 18:49:38.312 | INFO     | __main__:main:93 - Starting text fetch demonstration...
+2025-01-30 18:49:38.312 | INFO     | __main__:fetch_txt_file:52 - Fetching text data from https://raw.githubusercontent.com/curran/data/refs/heads/gh-pages/worldFactbook/GDPPerCapita.txt...
+2025-01-30 18:49:38.384 | INFO     | __main__:write_txt_file:76 - Writing data to data\GDP per Capita.txt...
+2025-01-30 18:49:38.385 | INFO     | __main__:write_txt_file:80 - SUCCESS: Data written to data\GDP per Capita.txt
+2025-01-30 18:49:38.385 | INFO     | __main__:fetch_txt_file:56 - SUCCESS: Text file fetched and saved as GDP per Capita.txt
+2025-01-30 19:05:04.948 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-30 19:05:04.948 | INFO     | __main__:<module>:61 - Starting text processing...
+2025-01-30 19:05:04.948 | INFO     | __main__:process_text_file:53 - Processed text file: data\GDP per Capita.txt
+2025-01-30 19:05:04.949 | INFO     | __main__:<module>:63 - Text processing complete.
+2025-01-30 19:05:27.818 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-30 19:05:27.818 | INFO     | __main__:<module>:61 - Starting text processing...
+2025-01-30 19:05:27.819 | INFO     | __main__:process_text_file:53 - Processed text file: data\GDP per Capita.txt
+2025-01-30 19:05:27.819 | INFO     | __main__:<module>:63 - Text processing complete.
+2025-01-30 19:05:45.734 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-30 19:05:45.734 | INFO     | __main__:<module>:61 - Starting text processing...
+2025-01-30 19:05:45.735 | INFO     | __main__:process_text_file:53 - Processed text file: data\GDP per Capita.txt
+2025-01-30 19:05:45.736 | INFO     | __main__:<module>:63 - Text processing complete.
+2025-01-30 19:06:20.782 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-30 19:06:20.782 | INFO     | __main__:<module>:61 - Starting text processing...
+2025-01-30 19:06:20.783 | INFO     | __main__:process_text_file:53 - Processed text file: data\GDP per Capita.txt
+2025-01-30 19:06:20.783 | INFO     | __main__:<module>:63 - Text processing complete.
+2025-01-30 19:06:49.067 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-30 19:06:49.067 | INFO     | __main__:<module>:61 - Starting text processing...
+2025-01-30 19:06:49.068 | INFO     | __main__:process_text_file:53 - Processed text file: data\GDP per Capita.txt
+2025-01-30 19:06:49.068 | INFO     | __main__:<module>:63 - Text processing complete.
+2025-01-30 19:08:14.202 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-30 19:08:14.202 | INFO     | __main__:<module>:61 - Starting text processing...
+2025-01-30 19:08:14.202 | INFO     | __main__:process_text_file:53 - Processed text file: data\GDP per Capita.txt
+2025-01-30 19:08:14.202 | INFO     | __main__:<module>:63 - Text processing complete.
+2025-01-30 19:08:49.519 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-30 19:08:49.519 | INFO     | __main__:<module>:61 - Starting text processing...
+2025-01-30 19:08:49.520 | INFO     | __main__:process_text_file:53 - Processed text file: data\GDP per Capita.txt
+2025-01-30 19:08:49.520 | INFO     | __main__:<module>:63 - Text processing complete.
+2025-01-30 19:09:07.784 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-30 19:09:07.784 | INFO     | __main__:<module>:61 - Starting text processing...
+2025-01-30 19:09:07.785 | INFO     | __main__:process_text_file:53 - Processed text file: data\GDP per Capita.txt
+2025-01-30 19:09:07.785 | INFO     | __main__:<module>:63 - Text processing complete.
+2025-01-30 19:10:46.248 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-30 19:10:59.983 | INFO     | __main__:<module>:61 - Starting text processing...
+2025-01-30 19:11:02.029 | INFO     | __main__:process_text_file:53 - Processed text file: data\GDP per Capita.txt
+2025-01-30 19:11:04.094 | INFO     | __main__:<module>:63 - Text processing complete.
+2025-01-30 19:11:57.496 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-30 19:11:57.496 | INFO     | __main__:<module>:61 - Starting text processing...
+2025-01-30 19:16:44.070 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-30 19:16:44.070 | INFO     | __main__:<module>:62 - Starting text processing...
+2025-01-30 19:16:44.071 | ERROR    | __main__:max_gdp:40 - Error reading text file: list index out of range
+2025-01-30 19:16:44.071 | INFO     | __main__:process_text_file:54 - Processed text file: data\GDP per Capita.txt. Data saved to data_processed\text_output.txt
+2025-01-30 19:16:44.071 | INFO     | __main__:<module>:64 - Text processing complete.
+2025-01-30 19:18:21.218 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-30 19:18:21.218 | INFO     | __main__:<module>:62 - Starting text processing...
+2025-01-30 19:18:21.219 | ERROR    | __main__:max_gdp:40 - Error reading text file: list index out of range
+2025-01-30 19:18:21.219 | INFO     | __main__:process_text_file:54 - Processed text file: data\GDP per Capita.txt. Data saved to data_processed\text_output.txt
+2025-01-30 19:18:21.219 | INFO     | __main__:<module>:64 - Text processing complete.
+2025-01-30 19:18:31.011 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-30 19:18:31.011 | INFO     | __main__:<module>:62 - Starting text processing...
+2025-01-30 19:18:31.011 | INFO     | __main__:process_text_file:54 - Processed text file: data\GDP per Capita.txt. Data saved to data_processed\text_output.txt
+2025-01-30 19:18:31.012 | INFO     | __main__:<module>:64 - Text processing complete.
+2025-01-30 19:20:18.549 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-30 19:20:18.550 | INFO     | __main__:<module>:62 - Starting text processing...
+2025-01-30 19:20:18.550 | INFO     | __main__:process_text_file:54 - Processed text file: data\GDP per Capita.txt. Data saved to data_processed\text_output.txt
+2025-01-30 19:20:18.550 | INFO     | __main__:<module>:64 - Text processing complete.
+2025-01-30 19:21:09.804 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-30 19:21:09.804 | INFO     | __main__:<module>:63 - Starting text processing...
+2025-01-30 19:21:09.805 | INFO     | __main__:process_text_file:55 - Processed text file: data\GDP per Capita.txt. Data saved to data_processed\text_output.txt
+2025-01-30 19:21:09.805 | INFO     | __main__:<module>:65 - Text processing complete.
+2025-01-30 19:24:04.423 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-30 19:24:04.423 | INFO     | __main__:<module>:61 - Starting text processing...
+2025-01-30 19:24:04.424 | INFO     | __main__:process_text_file:53 - Processed text file: data\GDP per Capita.txt. Data saved to data_processed\text_output.txt
+2025-01-30 19:24:04.424 | INFO     | __main__:<module>:63 - Text processing complete.
+2025-01-30 19:25:31.480 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-30 19:25:31.480 | INFO     | __main__:<module>:61 - Starting text processing...
+2025-01-30 19:25:31.480 | INFO     | __main__:process_text_file:53 - Processed text file: data\GDP per Capita.txt. Data saved to data_processed\text_output.txt
+2025-01-30 19:25:31.480 | INFO     | __main__:<module>:63 - Text processing complete.
+2025-01-30 19:26:06.652 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-30 19:26:06.653 | INFO     | __main__:<module>:61 - Starting text processing...
+2025-01-30 19:26:06.653 | INFO     | __main__:process_text_file:53 - Processed text file: data\GDP per Capita.txt. Data saved to data_processed\text_output.txt
+2025-01-30 19:26:06.653 | INFO     | __main__:<module>:63 - Text processing complete.
+2025-01-30 19:26:30.503 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-30 19:26:30.503 | INFO     | __main__:<module>:61 - Starting text processing...
+2025-01-30 19:26:30.504 | ERROR    | __main__:max_gdp:39 - Error reading text file: list index out of range
+2025-01-30 19:26:30.504 | INFO     | __main__:process_text_file:53 - Processed text file: data\GDP per Capita.txt. Data saved to data_processed\text_output.txt
+2025-01-30 19:26:30.504 | INFO     | __main__:<module>:63 - Text processing complete.
+2025-01-30 19:28:15.305 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-30 19:28:15.305 | INFO     | __main__:<module>:61 - Starting text processing...
+2025-01-30 19:28:15.305 | INFO     | __main__:process_text_file:53 - Processed text file: data\GDP per Capita.txt. Data saved to data_processed\text_output.txt
+2025-01-30 19:28:15.306 | INFO     | __main__:<module>:63 - Text processing complete.
+2025-01-30 19:31:04.298 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-30 19:31:04.298 | INFO     | __main__:<module>:62 - Starting text processing...
+2025-01-30 19:31:04.299 | INFO     | __main__:process_text_file:54 - Processed text file: data\GDP per Capita.txt. Data saved to data_processed\text_output.txt
+2025-01-30 19:31:04.299 | INFO     | __main__:<module>:64 - Text processing complete.
+2025-01-30 19:35:05.183 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-30 19:35:05.183 | INFO     | __main__:<module>:60 - Starting text processing...
+2025-01-30 19:35:05.184 | INFO     | __main__:process_text_file:52 - Processed text file: data\GDP per Capita.txt. Data saved to data_processed\text_output.txt
+2025-01-30 19:35:05.184 | INFO     | __main__:<module>:62 - Text processing complete.
+2025-01-30 19:36:17.253 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-30 19:36:17.254 | INFO     | __main__:<module>:60 - Starting text processing...
+2025-01-30 19:36:17.275 | INFO     | __main__:process_text_file:52 - Processed text file: data\GDP per Capita.txt. Data saved to data_processed\text_output.txt
+2025-01-30 19:36:17.276 | INFO     | __main__:<module>:62 - Text processing complete.
+2025-01-30 19:36:37.175 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-30 19:36:37.176 | INFO     | __main__:<module>:60 - Starting text processing...
+2025-01-30 19:36:37.176 | INFO     | __main__:process_text_file:52 - Processed text file: data\GDP per Capita.txt. Data saved to data_processed\text_output.txt
+2025-01-30 19:36:37.176 | INFO     | __main__:<module>:62 - Text processing complete.
+2025-01-30 20:18:44.459 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-30 20:18:44.459 | INFO     | __main__:<module>:62 - Starting text processing...
+2025-01-30 20:18:44.460 | INFO     | __main__:process_text_file:54 - Processed text file: data\GDP per Capita.txt. Data saved to data_processed\text_output.txt
+2025-01-30 20:18:44.460 | INFO     | __main__:<module>:64 - Text processing complete.
+2025-01-30 20:19:43.275 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-30 20:19:43.276 | INFO     | __main__:<module>:63 - Starting text processing...
+2025-01-30 20:19:43.276 | INFO     | __main__:process_text_file:55 - Processed text file: data\GDP per Capita.txt. Data saved to data_processed\text_output.txt
+2025-01-30 20:19:43.276 | INFO     | __main__:<module>:65 - Text processing complete.
+2025-01-30 20:21:00.054 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-30 20:21:00.054 | INFO     | __main__:<module>:63 - Starting text processing...
+2025-01-30 20:21:00.055 | INFO     | __main__:process_text_file:55 - Processed text file: data\GDP per Capita.txt. Data saved to data_processed\text_output.txt
+2025-01-30 20:21:00.055 | INFO     | __main__:<module>:65 - Text processing complete.
+2025-01-30 20:21:45.723 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-30 20:21:45.723 | INFO     | __main__:<module>:63 - Starting text processing...
+2025-01-30 20:21:45.724 | INFO     | __main__:process_text_file:55 - Processed text file: data\GDP per Capita.txt. Data saved to data_processed\text_output.txt
+2025-01-30 20:21:45.724 | INFO     | __main__:<module>:65 - Text processing complete.
+2025-01-30 20:25:06.539 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-30 20:25:06.539 | INFO     | __main__:<module>:65 - Starting text processing...
+2025-01-30 20:25:06.539 | ERROR    | __main__:max_gdp:43 - Error reading text file: list indices must be integers or slices, not str
+2025-01-30 20:25:06.539 | INFO     | __main__:process_text_file:57 - Processed text file: data\GDP per Capita.txt. Data saved to data_processed\text_output.txt
+2025-01-30 20:25:06.539 | INFO     | __main__:<module>:67 - Text processing complete.
+2025-01-30 20:25:45.934 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-30 20:25:45.934 | INFO     | __main__:<module>:65 - Starting text processing...
+2025-01-30 20:25:45.934 | ERROR    | __main__:max_gdp:43 - Error reading text file: list indices must be integers or slices, not str
+2025-01-30 20:25:45.935 | INFO     | __main__:process_text_file:57 - Processed text file: data\GDP per Capita.txt. Data saved to data_processed\text_output.txt
+2025-01-30 20:25:45.935 | INFO     | __main__:<module>:67 - Text processing complete.
+2025-01-30 20:26:25.069 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-30 20:26:25.069 | INFO     | __main__:<module>:65 - Starting text processing...
+2025-01-30 20:26:25.069 | ERROR    | __main__:max_gdp:43 - Error reading text file: list indices must be integers or slices, not str
+2025-01-30 20:26:25.069 | INFO     | __main__:process_text_file:57 - Processed text file: data\GDP per Capita.txt. Data saved to data_processed\text_output.txt
+2025-01-30 20:26:25.069 | INFO     | __main__:<module>:67 - Text processing complete.
+2025-01-30 20:27:25.077 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-30 20:27:25.077 | INFO     | __main__:<module>:67 - Starting text processing...
+2025-01-30 20:27:25.077 | INFO     | __main__:process_text_file:59 - Processed text file: data\GDP per Capita.txt. Data saved to data_processed\text_output.txt
+2025-01-30 20:27:25.077 | INFO     | __main__:<module>:69 - Text processing complete.
+2025-01-30 20:27:39.739 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-30 20:27:39.740 | INFO     | __main__:<module>:67 - Starting text processing...
+2025-01-30 20:27:39.740 | INFO     | __main__:process_text_file:59 - Processed text file: data\GDP per Capita.txt. Data saved to data_processed\text_output.txt
+2025-01-30 20:27:39.740 | INFO     | __main__:<module>:69 - Text processing complete.
+2025-01-30 20:29:59.606 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-30 20:29:59.606 | INFO     | __main__:<module>:66 - Starting text processing...
+2025-01-30 20:29:59.606 | ERROR    | __main__:max_gdp:44 - Error reading text file: list indices must be integers or slices, not str
+2025-01-30 20:29:59.606 | INFO     | __main__:process_text_file:58 - Processed text file: data\GDP per Capita.txt. Data saved to data_processed\text_output.txt
+2025-01-30 20:29:59.607 | INFO     | __main__:<module>:68 - Text processing complete.
+2025-01-30 20:31:04.876 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-30 20:31:04.876 | INFO     | __main__:<module>:65 - Starting text processing...
+2025-01-30 20:31:04.877 | ERROR    | __main__:max_gdp:43 - Error reading text file: list indices must be integers or slices, not str
+2025-01-30 20:31:04.877 | INFO     | __main__:process_text_file:57 - Processed text file: data\GDP per Capita.txt. Data saved to data_processed\text_output.txt
+2025-01-30 20:31:04.877 | INFO     | __main__:<module>:67 - Text processing complete.
+2025-01-30 20:32:16.097 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-30 20:32:16.097 | INFO     | __main__:<module>:65 - Starting text processing...
+2025-01-30 20:32:16.098 | INFO     | __main__:process_text_file:57 - Processed text file: data\GDP per Capita.txt. Data saved to data_processed\text_output.txt
+2025-01-30 20:32:16.098 | INFO     | __main__:<module>:67 - Text processing complete.
+2025-01-30 20:33:38.675 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-30 20:33:38.675 | INFO     | __main__:<module>:66 - Starting text processing...
+2025-01-30 20:33:38.675 | ERROR    | __main__:max_gdp:44 - Error reading text file: list indices must be integers or slices, not str
+2025-01-30 20:33:38.676 | INFO     | __main__:process_text_file:58 - Processed text file: data\GDP per Capita.txt. Data saved to data_processed\text_output.txt
+2025-01-30 20:33:38.676 | INFO     | __main__:<module>:68 - Text processing complete.
+2025-01-30 20:35:02.477 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-30 20:35:02.478 | INFO     | __main__:<module>:66 - Starting text processing...
+2025-01-30 20:35:09.704 | ERROR    | __main__:max_gdp:44 - Error reading text file: list indices must be integers or slices, not str
+2025-01-30 20:35:09.705 | INFO     | __main__:process_text_file:58 - Processed text file: data\GDP per Capita.txt. Data saved to data_processed\text_output.txt
+2025-01-30 20:35:12.994 | INFO     | __main__:<module>:68 - Text processing complete.
+2025-01-30 20:37:18.516 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-30 20:37:18.517 | INFO     | __main__:main:66 - Starting text processing...
+2025-01-30 20:37:23.473 | ERROR    | __main__:max_gdp:44 - Error reading text file: list indices must be integers or slices, not str
+2025-01-30 20:37:23.473 | INFO     | __main__:process_text_file:58 - Processed text file: data\GDP per Capita.txt. Data saved to data_processed\text_output.txt
+2025-01-30 20:37:25.061 | INFO     | __main__:main:68 - Text processing complete.
+2025-01-30 20:39:56.041 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-30 20:39:56.041 | INFO     | __main__:main:68 - Starting text processing...
+2025-01-30 20:39:56.041 | ERROR    | __main__:max_gdp:46 - Error reading text file: invalid literal for int() with base 10: '103,900'
+2025-01-30 20:39:56.042 | INFO     | __main__:process_text_file:60 - Processed text file: data\GDP per Capita.txt. Data saved to data_processed\text_output.txt
+2025-01-30 20:39:56.042 | INFO     | __main__:main:70 - Text processing complete.
+2025-01-30 20:43:37.400 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-30 20:43:37.400 | INFO     | __main__:main:69 - Starting text processing...
+2025-01-30 20:43:37.400 | ERROR    | __main__:max_gdp:47 - Error reading text file: list indices must be integers or slices, not str
+2025-01-30 20:43:37.400 | INFO     | __main__:process_text_file:61 - Processed text file: data\GDP per Capita.txt. Data saved to data_processed\text_output.txt
+2025-01-30 20:43:37.400 | INFO     | __main__:main:71 - Text processing complete.
+2025-01-30 20:44:28.677 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-30 20:44:28.677 | INFO     | __main__:main:69 - Starting text processing...
+2025-01-30 20:44:28.678 | ERROR    | __main__:max_gdp:47 - Error reading text file: list indices must be integers or slices, not str
+2025-01-30 20:44:28.678 | INFO     | __main__:process_text_file:61 - Processed text file: data\GDP per Capita.txt. Data saved to data_processed\text_output.txt
+2025-01-30 20:44:28.678 | INFO     | __main__:main:71 - Text processing complete.
+2025-01-30 20:45:14.754 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-30 20:45:14.754 | INFO     | __main__:main:69 - Starting text processing...
+2025-01-30 20:45:48.871 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-30 20:45:48.871 | INFO     | __main__:main:69 - Starting text processing...
+2025-01-30 20:45:48.871 | ERROR    | __main__:max_gdp:47 - Error reading text file: '>' not supported between instances of 'int' and 'str'
+2025-01-30 20:45:48.871 | INFO     | __main__:process_text_file:61 - Processed text file: data\GDP per Capita.txt. Data saved to data_processed\text_output.txt
+2025-01-30 20:45:48.871 | INFO     | __main__:main:71 - Text processing complete.
+2025-01-30 20:46:31.307 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-30 20:46:31.308 | INFO     | __main__:main:69 - Starting text processing...
+2025-01-30 20:48:46.517 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-30 20:48:46.517 | INFO     | __main__:main:70 - Starting text processing...
+2025-01-30 20:50:05.360 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-30 20:50:05.360 | INFO     | __main__:main:70 - Starting text processing...
+2025-01-30 20:50:25.861 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-30 20:50:25.861 | INFO     | __main__:main:70 - Starting text processing...
+2025-01-30 20:51:15.739 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-30 20:51:15.740 | INFO     | __main__:main:69 - Starting text processing...
+2025-01-30 20:51:20.709 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-30 20:51:20.709 | INFO     | __main__:main:69 - Starting text processing...
+2025-01-30 20:51:24.785 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-30 20:51:24.785 | INFO     | __main__:main:69 - Starting text processing...
+2025-01-30 20:52:49.551 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-30 20:52:49.551 | INFO     | __main__:main:70 - Starting text processing...
+2025-01-30 20:57:03.473 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-30 20:57:03.473 | INFO     | __main__:main:70 - Starting text processing...
+2025-01-30 20:57:25.480 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-30 20:57:25.481 | INFO     | __main__:main:71 - Starting text processing...
+2025-01-30 20:58:19.933 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-30 20:58:19.933 | INFO     | __main__:main:71 - Starting text processing...
+2025-01-30 20:58:19.941 | INFO     | __main__:process_text_file:63 - Processed text file: data\GDP per Capita.txt. Data saved to data_processed\text_output.txt
+2025-01-30 20:58:19.941 | INFO     | __main__:main:73 - Text processing complete.
+2025-01-30 20:58:47.411 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-30 20:58:47.411 | INFO     | __main__:main:71 - Starting text processing...
+2025-01-30 20:58:47.419 | INFO     | __main__:process_text_file:63 - Processed text file: data\GDP per Capita.txt. Data saved to data_processed\text_output.txt
+2025-01-30 20:58:47.419 | INFO     | __main__:main:73 - Text processing complete.
+2025-01-30 20:59:05.901 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-30 20:59:05.901 | INFO     | __main__:main:71 - Starting text processing...
+2025-01-30 20:59:45.223 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-30 20:59:45.223 | INFO     | __main__:main:71 - Starting text processing...
+2025-01-30 20:59:45.232 | INFO     | __main__:process_text_file:63 - Processed text file: data\GDP per Capita.txt. Data saved to data_processed\text_output.txt
+2025-01-30 20:59:45.232 | INFO     | __main__:main:73 - Text processing complete.
+2025-01-30 21:00:02.530 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-30 21:00:02.530 | INFO     | __main__:main:71 - Starting text processing...
+2025-01-30 21:00:02.530 | INFO     | __main__:process_text_file:63 - Processed text file: data\GDP per Capita.txt. Data saved to data_processed\text_output.txt
+2025-01-30 21:00:02.530 | INFO     | __main__:main:73 - Text processing complete.
+2025-01-30 21:00:28.356 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-30 21:00:28.356 | INFO     | __main__:main:71 - Starting text processing...
+2025-01-30 21:00:28.357 | INFO     | __main__:process_text_file:63 - Processed text file: data\GDP per Capita.txt. Data saved to data_processed\text_output.txt
+2025-01-30 21:00:28.357 | INFO     | __main__:main:73 - Text processing complete.
+2025-01-30 21:07:46.333 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-30 21:07:46.333 | INFO     | __main__:main:74 - Starting text processing...
+2025-01-30 21:07:46.334 | ERROR    | __main__:max_gdp:52 - Error reading text file: 'int' object is not callable
+2025-01-30 21:07:46.334 | INFO     | __main__:process_text_file:66 - Processed text file: data\GDP per Capita.txt. Data saved to data_processed\text_output.txt
+2025-01-30 21:07:46.334 | INFO     | __main__:main:76 - Text processing complete.
+2025-01-30 21:10:45.278 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-30 21:10:45.278 | INFO     | __main__:main:74 - Starting text processing...
+2025-01-30 21:10:45.287 | ERROR    | __main__:max_gdp:52 - Error reading text file: 'int' object is not callable
+2025-01-30 21:10:45.288 | INFO     | __main__:process_text_file:66 - Processed text file: data\GDP per Capita.txt. Data saved to data_processed\text_output.txt
+2025-01-30 21:10:45.288 | INFO     | __main__:main:76 - Text processing complete.
+2025-01-30 21:11:35.389 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-30 21:11:35.390 | INFO     | __main__:main:75 - Starting text processing...
+2025-01-30 21:11:35.398 | ERROR    | __main__:max_gdp:53 - Error reading text file: 'int' object is not callable
+2025-01-30 21:11:35.399 | INFO     | __main__:process_text_file:67 - Processed text file: data\GDP per Capita.txt. Data saved to data_processed\text_output.txt
+2025-01-30 21:11:35.399 | INFO     | __main__:main:77 - Text processing complete.
+2025-01-30 21:11:46.698 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-30 21:11:46.698 | INFO     | __main__:main:75 - Starting text processing...
+2025-01-30 21:11:46.705 | ERROR    | __main__:max_gdp:53 - Error reading text file: 'int' object is not callable
+2025-01-30 21:11:46.705 | INFO     | __main__:process_text_file:67 - Processed text file: data\GDP per Capita.txt. Data saved to data_processed\text_output.txt
+2025-01-30 21:11:46.705 | INFO     | __main__:main:77 - Text processing complete.
+2025-01-30 21:12:16.316 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-30 21:12:16.316 | INFO     | __main__:main:75 - Starting text processing...
+2025-01-30 21:16:10.359 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-30 21:16:10.361 | INFO     | __main__:main:75 - Starting text processing...
+2025-01-30 21:16:10.362 | INFO     | __main__:process_text_file:67 - Processed text file: data\GDP per Capita.txt. Data saved to data_processed\text_output.txt
+2025-01-30 21:16:10.362 | INFO     | __main__:main:77 - Text processing complete.
+2025-01-30 21:16:24.014 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-30 21:16:24.016 | INFO     | __main__:main:75 - Starting text processing...
+2025-01-30 21:16:24.016 | INFO     | __main__:process_text_file:67 - Processed text file: data\GDP per Capita.txt. Data saved to data_processed\text_output.txt
+2025-01-30 21:16:24.016 | INFO     | __main__:main:77 - Text processing complete.
+2025-01-30 21:19:54.808 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-30 21:19:54.810 | INFO     | __main__:main:73 - Starting text processing...
+2025-01-30 21:19:54.811 | INFO     | __main__:process_text_file:65 - Processed text file: data\GDP per Capita.txt. Data saved to data_processed\text_output.txt
+2025-01-30 21:19:54.811 | INFO     | __main__:main:75 - Text processing complete.
+2025-01-30 21:21:39.819 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-30 21:21:39.821 | INFO     | __main__:main:73 - Starting text processing...
+2025-01-30 21:21:39.822 | INFO     | __main__:process_text_file:65 - Processed text file: data\GDP per Capita.txt. Data saved to data_processed\text_output.txt
+2025-01-30 21:21:39.822 | INFO     | __main__:main:75 - Text processing complete.
+2025-01-30 21:40:17.776 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-30 21:40:17.776 | INFO     | __main__:main:95 - Starting JSON fetch demonstration...
+2025-01-30 21:40:17.776 | INFO     | __main__:fetch_json_file:54 - Fetching JSON data from https://raw.githubusercontent.com/Purukitto/pokemon-data.json/refs/heads/master/pokedex.json...
+2025-01-30 21:40:17.956 | INFO     | __main__:write_json_file:78 - Writing JSON data to data\pokedex.json...
+2025-01-30 21:40:18.003 | INFO     | __main__:write_json_file:82 - SUCCESS: JSON data written to data\pokedex.json
+2025-01-30 21:40:18.003 | INFO     | __main__:fetch_json_file:58 - SUCCESS: JSON file fetched and saved as pokedex.json
+2025-01-31 19:23:12.675 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 19:23:12.675 | INFO     | __main__:<module>:74 - Starting JSON processing...
+2025-01-31 19:23:12.682 | ERROR    | __main__:get_pokemon:49 - Error reading or processing JSON file: 'list' object has no attribute 'get'
+2025-01-31 19:23:12.683 | INFO     | __main__:process_json_file:66 - Processed JSON file: data\pokedex.json, Results saved to: data_processed\Pokemon.txt
+2025-01-31 19:23:12.683 | INFO     | __main__:<module>:76 - JSON processing complete.
+2025-01-31 19:24:36.859 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 19:24:36.859 | INFO     | __main__:<module>:74 - Starting JSON processing...
+2025-01-31 19:24:36.867 | ERROR    | __main__:get_pokemon:49 - Error reading or processing JSON file: 'list' object has no attribute 'get'
+2025-01-31 19:24:36.868 | INFO     | __main__:process_json_file:66 - Processed JSON file: data\pokedex.json, Results saved to: data_processed\Pokemon.txt
+2025-01-31 19:24:36.868 | INFO     | __main__:<module>:76 - JSON processing complete.
+2025-01-31 19:26:28.148 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 19:26:28.148 | INFO     | __main__:<module>:84 - Starting JSON processing...
+2025-01-31 19:26:28.148 | ERROR    | __main__:count_astronauts_by_craft:61 - Error reading or processing JSON file: [Errno 2] No such file or directory: 'example_data\\astros.json'
+2025-01-31 19:26:28.149 | INFO     | __main__:process_json_file:77 - Processed JSON file: example_data\astros.json, Results saved to: example_processed\json_astronauts_by_craft.txt
+2025-01-31 19:26:28.149 | INFO     | __main__:<module>:86 - JSON processing complete.
+2025-01-31 19:28:42.525 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 19:28:42.525 | INFO     | __main__:<module>:84 - Starting JSON processing...
+2025-01-31 19:28:42.526 | INFO     | __main__:process_json_file:77 - Processed JSON file: JSON\astros.json, Results saved to: example_processed\json_astronauts_by_craft.txt
+2025-01-31 19:28:42.526 | INFO     | __main__:<module>:86 - JSON processing complete.
+2025-01-31 19:30:08.090 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 19:30:08.090 | INFO     | __main__:<module>:74 - Starting JSON processing...
+2025-01-31 19:30:08.098 | ERROR    | __main__:get_pokemon:49 - Error reading or processing JSON file: 'list' object has no attribute 'get'
+2025-01-31 19:30:08.099 | INFO     | __main__:process_json_file:66 - Processed JSON file: data\pokedex.json, Results saved to: data_processed\Pokemon.txt
+2025-01-31 19:30:08.099 | INFO     | __main__:<module>:76 - JSON processing complete.
+2025-01-31 19:30:36.641 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 19:30:36.641 | INFO     | __main__:<module>:74 - Starting JSON processing...
+2025-01-31 19:31:52.355 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 19:32:13.109 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 19:32:13.109 | INFO     | __main__:<module>:74 - Starting JSON processing...
+2025-01-31 19:32:54.111 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 19:32:54.111 | INFO     | __main__:<module>:74 - Starting JSON processing...
+2025-01-31 19:37:32.495 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 19:37:32.495 | INFO     | __main__:<module>:74 - Starting JSON processing...
+2025-01-31 19:37:49.254 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 19:37:49.254 | INFO     | __main__:<module>:74 - Starting JSON processing...
+2025-01-31 19:40:00.176 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 19:40:00.176 | INFO     | __main__:<module>:75 - Starting JSON processing...
+2025-01-31 19:46:24.113 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 19:46:24.113 | INFO     | __main__:<module>:48 - Starting JSON processing...
+2025-01-31 19:46:24.114 | INFO     | __main__:process_json_file:41 - Processed JSON file: data\pokedex.json, Results saved to: data_processed\Pokemon.txt
+2025-01-31 19:46:24.114 | INFO     | __main__:<module>:50 - JSON processing complete.
+2025-01-31 19:46:40.700 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 19:46:40.700 | INFO     | __main__:<module>:48 - Starting JSON processing...
+2025-01-31 19:46:40.700 | INFO     | __main__:process_json_file:41 - Processed JSON file: data\pokedex.json, Results saved to: data_processed\Pokemon.txt
+2025-01-31 19:46:40.701 | INFO     | __main__:<module>:50 - JSON processing complete.
+2025-01-31 19:47:02.909 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 19:47:02.910 | INFO     | __main__:<module>:48 - Starting JSON processing...
+2025-01-31 19:47:02.910 | INFO     | __main__:process_json_file:41 - Processed JSON file: data\pokedex.json, Results saved to: data_processed\Pokemon.txt
+2025-01-31 19:47:02.910 | INFO     | __main__:<module>:50 - JSON processing complete.
+2025-01-31 19:47:48.672 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 19:47:48.672 | INFO     | __main__:<module>:48 - Starting JSON processing...
+2025-01-31 19:47:48.672 | INFO     | __main__:process_json_file:41 - Processed JSON file: data\pokedex.json, Results saved to: data_processed\Pokemon.txt
+2025-01-31 19:47:48.672 | INFO     | __main__:<module>:50 - JSON processing complete.
+2025-01-31 19:49:03.317 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 19:49:03.317 | INFO     | __main__:<module>:48 - Starting JSON processing...
+2025-01-31 19:52:33.834 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 19:52:33.834 | INFO     | __main__:<module>:50 - Starting JSON processing...
+2025-01-31 19:53:49.315 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 19:53:49.315 | INFO     | __main__:<module>:51 - Starting JSON processing...
+2025-01-31 19:55:30.009 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 19:55:30.009 | INFO     | __main__:<module>:53 - Starting JSON processing...
+2025-01-31 19:55:52.600 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 19:55:52.601 | INFO     | __main__:<module>:53 - Starting JSON processing...
+2025-01-31 19:57:55.677 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 19:57:55.677 | INFO     | __main__:<module>:53 - Starting JSON processing...
+2025-01-31 20:01:42.096 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 20:01:42.096 | INFO     | __main__:<module>:55 - Starting JSON processing...
+2025-01-31 20:04:33.210 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 20:04:33.210 | INFO     | __main__:<module>:63 - Starting JSON processing...
+2025-01-31 20:09:17.876 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 20:09:17.876 | INFO     | __main__:main:95 - Starting JSON fetch demonstration...
+2025-01-31 20:09:17.876 | INFO     | __main__:fetch_json_file:54 - Fetching JSON data from https://raw.githubusercontent.com/Purukitto/pokemon-data.json/refs/heads/master/pokedex.json...
+2025-01-31 20:09:18.901 | INFO     | __main__:write_json_file:78 - Writing JSON data to data\pokedex.json...
+2025-01-31 20:09:18.928 | INFO     | __main__:write_json_file:82 - SUCCESS: JSON data written to data\pokedex.json
+2025-01-31 20:09:18.929 | INFO     | __main__:fetch_json_file:58 - SUCCESS: JSON file fetched and saved as pokedex.json
+2025-01-31 20:10:17.299 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 20:10:17.299 | INFO     | __main__:<module>:63 - Starting JSON processing...
+2025-01-31 20:10:17.306 | INFO     | __main__:process_json_file:55 - Processed JSON file: data\pokedex.json, Results saved to: data_processed\Pokemon.txt
+2025-01-31 20:10:17.306 | INFO     | __main__:<module>:65 - JSON processing complete.
+2025-01-31 20:10:31.975 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 20:10:31.975 | INFO     | __main__:<module>:63 - Starting JSON processing...
+2025-01-31 20:10:31.983 | INFO     | __main__:process_json_file:55 - Processed JSON file: data\pokedex.json, Results saved to: data_processed\Pokemon.txt
+2025-01-31 20:10:31.983 | INFO     | __main__:<module>:65 - JSON processing complete.
+2025-01-31 20:20:41.900 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 20:20:41.901 | INFO     | __main__:<module>:72 - Starting JSON processing...
+2025-01-31 20:20:41.908 | INFO     | __main__:process_json_file:64 - Processed JSON file: data\pokedex.json, Results saved to: data_processed\Pokemon.txt
+2025-01-31 20:20:41.908 | INFO     | __main__:<module>:74 - JSON processing complete.
+2025-01-31 20:21:54.378 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 20:21:54.378 | INFO     | __main__:<module>:72 - Starting JSON processing...
+2025-01-31 20:21:54.386 | INFO     | __main__:process_json_file:64 - Processed JSON file: data\pokedex.json, Results saved to: data_processed\Pokemon.txt
+2025-01-31 20:21:54.386 | INFO     | __main__:<module>:74 - JSON processing complete.
+2025-01-31 20:25:04.163 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 20:25:04.166 | INFO     | __main__:main:73 - Starting text processing...
+2025-01-31 20:25:04.174 | INFO     | __main__:process_text_file:65 - Processed text file: data\GDP per Capita.txt. Data saved to data_processed\GDP.txt
+2025-01-31 20:25:04.174 | INFO     | __main__:main:75 - Text processing complete.
+2025-01-31 20:31:50.776 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 20:31:50.776 | INFO     | __main__:main:93 - Starting Excel fetch demonstration...
+2025-01-31 20:31:50.776 | INFO     | __main__:fetch_excel_file:52 - Fetching Excel data from https://github.com/rohanmistry231/Practice-Datasets-for-Excel/raw/refs/heads/main/Adult%20Census%20Income/adult.xlsx...
+2025-01-31 20:31:51.591 | INFO     | __main__:write_excel_file:76 - Writing Excel data to data\Income Census.xlsx...
+2025-01-31 20:31:51.592 | INFO     | __main__:write_excel_file:80 - SUCCESS: Excel data written to data\Income Census.xlsx
+2025-01-31 20:31:51.592 | INFO     | __main__:fetch_excel_file:56 - SUCCESS: Excel file fetched and saved as Income Census.xlsx
+2025-01-31 20:36:53.694 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 20:36:53.698 | INFO     | __main__:<module>:61 - Starting Excel processing...
+2025-01-31 20:36:53.699 | INFO     | __main__:process_excel_file:51 - Processed Excel file: data\feedback.xlsx
+2025-01-31 20:36:53.699 | INFO     | __main__:<module>:63 - Excel processing complete.
+2025-01-31 20:38:45.820 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 20:38:45.823 | INFO     | __main__:<module>:62 - Starting Excel processing...
+2025-01-31 20:39:40.438 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 20:39:40.441 | INFO     | __main__:<module>:62 - Starting Excel processing...
+2025-01-31 20:40:05.201 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 20:40:05.204 | INFO     | __main__:<module>:62 - Starting Excel processing...
+2025-01-31 20:40:27.576 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 20:40:27.580 | INFO     | __main__:<module>:63 - Starting Excel processing...
+2025-01-31 20:47:45.294 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 20:47:45.297 | INFO     | __main__:<module>:66 - Starting Excel processing...
+2025-01-31 20:48:34.414 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 20:48:34.418 | INFO     | __main__:<module>:67 - Starting Excel processing...
+2025-01-31 21:00:48.368 | INFO     | __main__:process_excel_file:57 - Processed Excel file: data\Income Census.xlsx
+2025-01-31 21:00:48.368 | INFO     | __main__:<module>:69 - Excel processing complete.
+2025-01-31 21:00:56.439 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 21:00:56.443 | INFO     | __main__:<module>:74 - Starting Excel processing...
+2025-01-31 21:01:23.720 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 21:01:23.724 | INFO     | __main__:<module>:74 - Starting Excel processing...
+2025-01-31 21:10:04.526 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 21:10:04.529 | INFO     | __main__:<module>:76 - Starting Excel processing...
+2025-01-31 21:13:20.123 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 21:13:20.126 | INFO     | __main__:<module>:76 - Starting Excel processing...
+2025-01-31 21:13:22.408 | INFO     | __main__:process_excel_file:66 - Processed Excel file: data\Income Census.xlsx
+Mean Age: 39.0
+Mean Income: >50K
+2025-01-31 21:13:22.408 | INFO     | __main__:<module>:78 - Excel processing complete.
+2025-01-31 21:13:54.244 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 21:13:54.248 | INFO     | __main__:<module>:73 - Starting Excel processing...
+2025-01-31 21:13:56.545 | INFO     | __main__:process_excel_file:65 - Processed Excel file: data\Income Census.xlsx
+
+2025-01-31 21:13:56.545 | INFO     | __main__:<module>:75 - Excel processing complete.
+2025-01-31 21:50:05.243 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-01-31 21:50:05.247 | INFO     | __main__:<module>:73 - Starting Excel processing...
+2025-01-31 21:50:07.574 | INFO     | __main__:process_excel_file:65 - Processed Excel file: data\Income Census.xlsx
+
+2025-01-31 21:50:07.574 | INFO     | __main__:<module>:75 - Excel processing complete.
