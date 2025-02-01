@@ -63,15 +63,19 @@ py .\cselling_get_text.py
 
 ### Data Processors
 **cselling_process_excel.py**
+
 Processes file to find the mean age in the data set and their average income.
 
 **cselling_process_csv.py**
+
 Processes fetched file to find temperature statistics.
 
 **cselling_process_json.py**
+
 Processes fetched file to find all Pokemon names and how many Pokemon are in the data set.
 
 **cselling_process_text.py**
+
 Processes fetched file to find highest, lowest, and average GDP.\
 
 ### Command for Data Processors
