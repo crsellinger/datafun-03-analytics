@@ -16,50 +16,53 @@ import openpyxl
 # Import from local project modules
 from utils_logger import logger
 
+import statistics
+
 #####################################
 # Declare Global Variables
 #####################################
 
 fetched_folder_name: str = "data"
 processed_folder_name: str = "data_processed"
-data_file: str = "feedback.xlsx"
-output_file_name: str = "excel_output.txt"
+data_file: str = "Income Census.xlsx"
+output_file_name: str = "Income Census.txt"
 
 #####################################
 # Define Functions
 #####################################
 
 
-def count_word_in_column(file_path: pathlib.Path, column_letter: str, word: str) -> int:
+def stats_income(file_path: pathlib.Path) -> int:
     """Count the occurrences of a specific word in a given column of an Excel file."""
-    try:
-        workbook = openpyxl.load_workbook(file_path)
-        sheet = workbook.active
-        count = 0
-        for cell in sheet[column_letter]:
-            if cell.value and isinstance(cell.value, str):
-                count += cell.value.lower().count(word.lower())
-        return count
-    except Exception as e:
-        logger.error(f"Error reading Excel file: {e}")
-        return 0
+    workbook = openpyxl.load_workbook(file_path)
+    sheet = workbook.active
+    age = []
+    cell = 1
+    for cell in sheet["A"]:
+        age.append(cell.value)
+
+    del age[0]
+
+    mean = round(statistics.mean(age),0)
+
+    i = age.index(mean)
+    # i + 2 to account for header and sheet rows start at 1 instead of 0
+    row_vals = [cell.value for cell in sheet[i+2]]
+
+    return mean, row_vals[14]
+    # for cell in sheet:
 
 
 def process_excel_file():
     """Read an Excel file, count occurrences of 'GitHub' in a specific column, and save the result."""
     input_file = pathlib.Path(fetched_folder_name, data_file)
     output_file = pathlib.Path(processed_folder_name, output_file_name)
-    column_to_check = "A"  # Replace with the appropriate column letter
-    word_to_count = "GitHub"
-    word_count = count_word_in_column(input_file, column_to_check, word_to_count)
+
+    mean, income = stats_income(input_file)
     output_file.parent.mkdir(parents=True, exist_ok=True)
     with output_file.open("w") as file:
-        file.write(
-            f"Occurrences of '{word_to_count}' in column {column_to_check}: {word_count}\n"
-        )
-    logger.info(
-        f"Processed Excel file: {input_file}, Word count saved to: {output_file}"
-    )
+        file.write(f"Mean Age: {mean}\nMean Income: {income}\n")
+    logger.info(f"Processed Excel file: {input_file}\n")
 
 
 #####################################
