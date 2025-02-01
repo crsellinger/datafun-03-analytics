@@ -38,31 +38,43 @@ git push -u origin main
 
 ### Fetchers
 cselling_get_excel.py
-
+Retrieves an excel file filled with data on adult income.
 
 cselling_get_csv.py
-
+Retrieves a comma sepatated values file with air quality data from 2016.
 
 cselling_get_json.py
-
+Retrieves a JSON file of Pokemon data.
 
 cselling_get_text.py
+Retrieves a text file of GDP data.
 
 ### Command for Fetchers
-
+```shell
+py .\cselling_get_excel.py
+py .\cselling_get_csv.py
+py '.\JSON Getter\cselling_get_json.py'
+py .\cselling_get_text.py
+```
 
 ### Data Processors
 cselling_process_excel.py
-
+Processes file to find the mean age in the data set and their average income.
 
 cselling_process_csv.py
-
+Processes fetched file to find temperature statistics.
 
 cselling_process_json.py
-
+Processes fetched file to find all Pokemon names and how many Pokemon are in the data set.
 
 cselling_process_text.py
+Processes fetched file to find highest, lowest, and average GDP.\
 
 ### Command for Data Processors
-
+```shell
+py .\cselling_process_excel.py
+py .\cselling_process_csv.py
+py .\cselling_process_json.py
+py .\cselling_process_text.py
+```
 
